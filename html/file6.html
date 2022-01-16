@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background colors</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        #container {
+            min-height: 100vh;
+            background-image: linear-gradient(lime, cyan);
+        }
+
+        #back{
+            background-color: yellow; 
+            border: 1px solid orange;
+            padding: 7px 16px;
+            cursor: pointer;
+            border-radius: 9px;
+            position: absolute;
+            top: 95%;
+        }
+
+        #back:hover{
+            background-color: orange;
+            border: 1px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <p>This page has  a background color from css!</p>
+    <button id="back" onclick="document.location = '../index.html'">Project tab</button>
+    
+    </div>
+</body>
+   <script>
+       var bg = document.getElementById('container')
+       var bg2 = document.getElementById('background')
+
+       
+   </script>
+</html>

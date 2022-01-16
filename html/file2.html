@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headings</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        .body{
+            min-height: 100vh;
+            background-image: linear-gradient(lime, cyan);
+        }
+
+        #back{
+            background-color: yellow; 
+            border: 1px solid orange;
+            padding: 7px 16px;
+            cursor: pointer;
+            border-radius: 9px;
+            position: absolute;
+            top: 95%;
+        }
+
+        #back:hover{
+            background-color: orange;
+            border: 1px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <h1>H1 - h6</h1>
+        <h1>HEADING 1</h1>
+        <h2>HEADING 2</h2>
+        <h3>HEADING 3</h3>
+        <h4>HEADING 4</h4>
+        <h5>HEADING 5</h5>
+        <h6>HEADING 6</h6>
+        <button id="back" onclick="document.location = '../index.html'">Project tab</button>
+    </div>
+</body>
+</html>
